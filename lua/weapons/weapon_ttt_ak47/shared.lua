@@ -26,7 +26,7 @@ if CLIENT then
 		name = 			"BOOMAK",
 		channel = 		CHAN_ITEM,
 		volume = 		1.0,
-		sound = 			"boomak.mp3"
+		sound = 			"weapons/ak47/boomak.mp3"
 	})
 end
 
