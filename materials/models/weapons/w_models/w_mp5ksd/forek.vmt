@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\v_models\mp5ksd\forek"
+        "$bumpmap" "models/weapons\v_models/mp5ksd\forek_normal"
+	"$normalmapalphaenvmapmask" 1
+        "$phong" "1"
+        "$phongexponent" "50"
+        "$phongboost"	"50"
+        "$phongfresnelranges"	"[.2 4 1]"
+	
+}
+

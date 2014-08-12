@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+	"name"			"Koality Weapons"
+	"version"		"1.0"
+	"up_date"		"7/9/14"
+	"author_name"	"General Butthurt"
+	"info"			"Koality Weapons for TTT"
+}
