@@ -32,7 +32,7 @@ SWEP.Primary.Ammo        = "smg1"
 SWEP.Primary.Recoil      = 1.15
 SWEP.Primary.Sound = Sound("SMG.single")
 
-SWEP.AutoSpawnable = true
+SWEP.AutoSpawnable = false
 
 SWEP.AmmoEnt = "item_ammo_smg1_ttt"
 

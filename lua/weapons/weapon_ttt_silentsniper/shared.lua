@@ -12,7 +12,7 @@ if CLIENT then
    SWEP.Slot               = 6
 
     SWEP.EquipMenuData = {
-      type  = "Guns",
+      type  = "Weapons",
       name  = "Silent Sniper",
       desc  = "Its a sniper, but silent."
     }
@@ -41,7 +41,7 @@ SWEP.Primary.DefaultClip = 10
 SWEP.HeadshotMultiplier = 4
 
 SWEP.AutoSpawnable      = true
-SWEP.AmmoEnt = "item_ammo_357_ttt"
+SWEP.AmmoEnt = "item_ammoz_357_ttt"
 
 SWEP.UseHands			= true
 SWEP.ViewModelFlip		= true
