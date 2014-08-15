@@ -41,7 +41,7 @@ SWEP.Primary.DefaultClip = 10
 SWEP.HeadshotMultiplier = 4
 
 SWEP.AutoSpawnable      = true
-SWEP.AmmoEnt = "item_ammoz_357_ttt"
+SWEP.AmmoEnt = "item_ammo_357_ttt"
 
 SWEP.UseHands			= true
 SWEP.ViewModelFlip		= true
