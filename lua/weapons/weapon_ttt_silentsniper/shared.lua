@@ -31,7 +31,7 @@ SWEP.WeaponID = AMMO_RIFLE
 SWEP.Primary.Delay          = 0.9
 SWEP.Primary.Recoil         = 4
 SWEP.Primary.Automatic = true
-SWEP.Primary.Ammo = "None"
+SWEP.Primary.Ammo = "item_ammo_357_ttt"
 SWEP.Primary.Damage = 50
 SWEP.Primary.Cone = 0.006
 SWEP.Primary.ClipSize = 10
@@ -111,12 +111,6 @@ function SWEP:Holster()
     return true
 end
 
-SWEP.EquipMenuData = {
-   type = "Guns",
-   desc = "A silenced sniper rifle",
-   model="models/weapons/w_snip_g3sg1.mdl",
-   desc = "Sniper Silenced."
-};
 
 if CLIENT then
    local scope = surface.GetTextureID("sprites/scope")
