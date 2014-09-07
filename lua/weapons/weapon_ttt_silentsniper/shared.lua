@@ -62,6 +62,30 @@ SWEP.IronSightsPos = Vector(0, 0, -15)
 SWEP.CanBuy = { ROLE_TRAITOR }
 SWEP.LimitedStock = true
 
+-- Shooting functions largely copied from weapon_cs_base
+function SWEP:PrimaryAttack(worldsnd)
+
+   self:SetNextSecondaryFire( CurTime() + 0.3 )
+   self:SetNextPrimaryFire( CurTime() + self.Primary.Delay )
+
+   if not self:CanPrimaryAttack() then return end
+
+   if not worldsnd then
+      self:EmitSound( self.Primary.Sound, self.Primary.SoundLevel )
+   elseif SERVER then
+      sound.Play(self.Primary.Sound, self:GetPos(), self.Primary.SoundLevel)
+   end
+
+   self:ShootBullet( self.Primary.Damage, self.Primary.Recoil, self.Primary.NumShots, self:GetPrimaryCone() )
+
+   self:TakePrimaryAmmo( 1 )
+
+   local owner = self.Owner
+   if not IsValid(owner) or owner:IsNPC() or (not owner.ViewPunch) then return end
+
+   owner:ViewPunch( Angle( math.Rand(-0.2,-0.1) * self.Primary.Recoil, math.Rand(-0.1,0.1) *self.Primary.Recoil, 0 ) )
+end
+
 function SWEP:SetZoom(state)
     if CLIENT then 
        return
