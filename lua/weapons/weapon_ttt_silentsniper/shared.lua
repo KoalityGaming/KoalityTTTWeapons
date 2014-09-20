@@ -26,7 +26,6 @@ SWEP.Spawnable = false
 SWEP.AdminSpawnable = true
 
 SWEP.Kind = WEAPON_EQUIP1
-SWEP.WeaponID = AMMO_RIFLE
 
 SWEP.Primary.Delay          = 0.9
 SWEP.Primary.Recoil         = 4
