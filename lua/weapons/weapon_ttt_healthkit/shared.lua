@@ -79,7 +79,7 @@ function SWEP:PrimaryAttack()
 		  
 			if ( ent:IsValid() and ent:IsPlayer() ) then
 				if ent:Health() > 125 then
-					self.Owner:ChatPrint("[red]Health of Target is Full or Greater!")
+					self.Owner:ChatPrint("Health of Target is Full or Greater!")
 				else
 					self.Weapon:EmitSound( ShootSound, 60, 100 )
 					ent:SetHealth( ent:Health() + 35 )	
@@ -93,7 +93,7 @@ end
 function SWEP:SecondaryAttack()
 	if SERVER then
 		if self.Owner:Health() > 125 then
-			self.Owner:ChatPrint("[red]Your health is Full or Greater!")
+			self.Owner:ChatPrint("Your health is Full or Greater!")
 		else
 			self:EmitSound( ShootSound, 60, 100 )
 			self.Owner:SetHealth( self.Owner:Health() + 35 )
