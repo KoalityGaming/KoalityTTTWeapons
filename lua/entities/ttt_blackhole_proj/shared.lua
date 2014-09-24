@@ -27,7 +27,7 @@ local function PushPullRadius(pos, pusher)
 
             target:SetVelocity(vel)
 
-            target.was_pulled = {att=pusher, t=CurTime()}
+            target.was_pushed = {att=pusher, t=CurTime()}
 
          elseif IsValid(phys) then
             phys:ApplyForceCenter(dir * -1 * phys_force)
