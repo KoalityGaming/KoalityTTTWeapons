@@ -66,7 +66,7 @@ SWEP.DeploySpeed = 1.5
 
 SWEP.Kind = WEAPON_NADE
 SWEP.Kind = WEAPON_EQUIP
-SWEP.CanBuy = {ROLE_DETECTIVE} -- only detectives can buy
+--SWEP.CanBuy = {ROLE_DETECTIVE} -- only detectives can buy
 SWEP.LimitedStock = true
 
 AccessorFuncDT( SWEP, "pin_pulled", "Pin")
