@@ -39,7 +39,7 @@ end
 local zapsound = Sound("npc/assassin/ball_zap1.wav")
 function ENT:Explode(tr)
    if SERVER then
-	  AddToDamageLog({DMG_LOG.BLACK_HOLE, self:GetThrower():Nick(), self:GetThrower():GetRoleString()})
+	  --AddToDamageLog({DMG_LOG.BLACK_HOLE, self:GetThrower():Nick(), self:GetThrower():GetRoleString()})
       self.Entity:SetNoDraw(true)
       self.Entity:SetSolid(SOLID_NONE)
 
