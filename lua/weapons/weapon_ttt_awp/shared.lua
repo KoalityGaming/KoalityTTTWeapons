@@ -11,7 +11,7 @@ if CLIENT then
    SWEP.ViewModelFOV = 80
    
       SWEP.EquipMenuData = {
-      type = "Weapons",
+      type = "Guns",
       desc = "Be Careful it's loud and only has one \nshot!"
    };
 
