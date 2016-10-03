@@ -19,7 +19,7 @@ end
 SWEP.CanBuy 				= { ROLE_TRAITOR }
 SWEP.LimitedStock 			= false
 SWEP.EquipMenuData = {
-   type = "Equipment",
+   type = "Explosives",
    desc = "Reverse Discombobulator. \nExtremely powerful!"
 };
 
