@@ -38,7 +38,7 @@ if CLIENT then
 	SWEP.EquipMenuData = {
    
    
-		type = "Equipment",
+		type = "Explosives",
 		desc = "Turtle Grenade.\n Releases several hostile turtles on detonation."
    };
     function SWEP:DrawWorldModel()

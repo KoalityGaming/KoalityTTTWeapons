@@ -19,7 +19,7 @@ if CLIENT then
    SWEP.Icon = "VGUI/ttt/icon_nades"
    
    SWEP.EquipMenuData = {
-      type = "Tools",
+      type = "Explosives",
       desc = "Freeze anyone close."
    };
 end
@@ -59,7 +59,7 @@ SWEP.throw_time = 0
 
 SWEP.was_thrown = false
 
-//after sec let him detonate
+--after sec let him detonate
 SWEP.detonate_timer = 3
 
 SWEP.DeploySpeed = 1.5

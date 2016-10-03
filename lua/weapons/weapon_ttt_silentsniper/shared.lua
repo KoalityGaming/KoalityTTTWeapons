@@ -12,7 +12,7 @@ if CLIENT then
    SWEP.Slot               = 6
 
     SWEP.EquipMenuData = {
-      type  = "Weapons",
+      type  = "Guns",
       name  = "Silent Sniper",
       desc  = "Its a sniper, but silent."
     }

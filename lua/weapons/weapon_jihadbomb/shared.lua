@@ -19,7 +19,7 @@ if CLIENT then
  
    SWEP.EquipMenuData = {
       --type  = "item_weapon",
-	  type  = "Equipment",
+	  type  = "Explosives",
       name  = "Jihad bomb",
       desc  = "Sacrifice yourself for Allah.\nLeft Click to make yourself EXPLODE.\nRight click to taunt."
    };

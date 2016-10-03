@@ -16,7 +16,7 @@ if CLIENT then
    
 		SWEP.EquipMenuData = {
       --type = "item_weapon",
-	  type  = "Weapons",
+	  type  = "Guns",
       desc = "Koala Brand AK47. Powerful and Efficient"
    };
    SWEP.Icon = "VGUI/ttt/ak47_icon_dark.png"
