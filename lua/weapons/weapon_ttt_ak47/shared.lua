@@ -3,7 +3,7 @@
 -- First some standard GMod stuff
 if SERVER then
    AddCSLuaFile( "shared.lua" )
-   resource.AddFile("materials/VGUI/ttt/ak47_icon_dark.png")
+   resource.AddFile("materials/vgui/ttt/ak47_icon_dark.png")
    resource.AddFile("sound/weapons/ak47/boomak.mp3")
 end
 

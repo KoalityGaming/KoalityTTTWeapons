@@ -29,7 +29,7 @@ if CLIENT then
    	SWEP.PrintName	 = "Turtle Grenade"
 	SWEP.Slot		 = 7
 
-	if file.Exists("materials/VGUI/ttt/icon_tl_turtle.vmt", "GAME") then
+	if file.Exists("materials/vgui/ttt/icon_tl_turtle.vmt", "GAME") then
 		SWEP.Icon = "VGUI/ttt/icon_tl_turtle"
 	else
 		SWEP.Icon = "VGUI/ttt/icon_nades"

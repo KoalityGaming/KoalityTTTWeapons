@@ -1,6 +1,6 @@
 if SERVER then
    AddCSLuaFile( "shared.lua" )
-   resource.AddFile("materials/VGUI/ttt/awp_icon_dark.png")
+   resource.AddFile("materials/vgui/ttt/awp_icon_dark.png")
 end
 
 SWEP.HoldType           = "ar2"
